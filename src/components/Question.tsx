@@ -1,4 +1,4 @@
-import { IAnswerOption, IQuestionProps } from "../types";
+import { IQuestionProps } from "../types";
 
 const Question: React.FC<IQuestionProps> = ({
   question,

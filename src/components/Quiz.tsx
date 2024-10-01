@@ -8,7 +8,7 @@ const Quiz = () => {
   const [currentQuestion, setCurrentQuestion] = useState<number>(0);
   const [score, setScore] = useState<number>(0);
   const [showResult, setShowResult] = useState<boolean>(false);
-  const [userAnswers, setUserAnswers] = useState<IUserAnswer[]>([]);
+  const [_, setUserAnswers] = useState<IUserAnswer[]>([]);
 
   const handleAnswer = (isCorrect: boolean) => {
     if (isCorrect) {
